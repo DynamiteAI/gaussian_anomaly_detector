@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='anomaly_analyzers',
+    name='gaussian_anomaly_detector',
     version='0.1.0',
     packages=['gaussian_anomaly_detector'],
     url='https://dynamite.ai',
