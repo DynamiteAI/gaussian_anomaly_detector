@@ -9,7 +9,7 @@ Install this analyzer by pointing the `anomaly-analyzer` root (where the `setup.
 sudo python3 dynamite-analyzer.py "<path-to-project-root>/" install
 ```
 
-## Uninstall
+### Uninstall
 ```
 sudo python3 dynamite-analyzer.py "<path-to-project-root>/" uninstall
 ```
