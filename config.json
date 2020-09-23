@@ -1,0 +1,17 @@
+{
+  "package_name": "gaussian_anomaly_detector",
+  "module_name": "main",
+  "class_name": "GaussianAnomalyDetectorAnalyzer",
+  "output":{
+      "elasticsearch": {
+        "targets": ["localhost:9200"],
+        "username": null,
+        "password": null,
+        "use_ssl": false,
+        "index": "gaussian_anomaly_detector"
+      },
+      "file": {
+        "path": "~/anomaly_output.ndjson"
+      }
+  }
+}

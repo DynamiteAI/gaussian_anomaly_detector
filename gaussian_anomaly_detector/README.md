@@ -1,0 +1,1 @@
+A collection of anomaly detectors integrated with the `dynamite_analyzer_framework`.
