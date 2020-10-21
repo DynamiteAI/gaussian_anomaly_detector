@@ -2,6 +2,12 @@
   "package_name": "gaussian_anomaly_detector",
   "module_name": "main",
   "class_name": "GaussianAnomalyDetectorAnalyzer",
+  "inputs": {
+    "kafka": {
+      "topic": "zeek-raw-conn",
+      "brokers": ["localhost:9092"]
+    }
+  },
   "output":{
       "elasticsearch": {
         "targets": ["localhost:9200"],

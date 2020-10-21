@@ -10,7 +10,7 @@ setup(
     author_email='jamin@dynamite.ai',
     description='Detect anomalies in events',
     install_requires=[
-        'dynamite-analyzer-framework',
+        'dynamite_analyzer_framework',
         'elasticsearch',
         'scipy',
         'sklearn',

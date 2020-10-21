@@ -62,7 +62,7 @@ sudo python3 dynamite-analyzer.py <path-to-project-root>/ run -i file --file /et
 ### Run Analyzer With Custom Parameters
 
 ```
-sudo python3 dynamite-analyzer.py <path-to-project-root>/ run -i file --file /etc/dynamite/replays/zeek/ee7bddec94ff4f6f06154c70107c05da/conn.log -o console --params '{"domain": "conn_log_test", "load_model": false}'
+sudo python3 dynamite-analyzer.py <path-to-project-root>/ run -i file --file /etc/dynamite/replays/zeek/ee7bddec94ff4f6f06154c70107c05da/conn.log -o console --params '{"domain": "conn_log_test", "load_model": true}'
 ```
 
 #### Sample Output:

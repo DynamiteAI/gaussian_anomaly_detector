@@ -4,7 +4,7 @@ import hashlib
 import joblib
 import pandas
 
-from gaussian_anomaly_detector import const
+from dynamite_analyzer_framework import const
 
 
 def predict_gaussian_anomaly_detector(input_df: pandas.DataFrame, domain: str, train_fields=(), include_fields=()):
@@ -27,6 +27,7 @@ def predict_gaussian_anomaly_detector(input_df: pandas.DataFrame, domain: str, t
     model = joblib.load(model_pkl_file)
     predictions = model.predict(train_df)
     reasons = model.get_reason()
+
     include_fields_lists = []
     for field in include_fields:
         include_fields_lists.append(input_df[field].tolist())

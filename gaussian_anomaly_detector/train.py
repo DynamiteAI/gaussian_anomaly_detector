@@ -4,7 +4,7 @@ import hashlib
 import joblib
 import pandas
 
-from gaussian_anomaly_detector import const
+from dynamite_analyzer_framework import const
 from gaussian_anomaly_detector.gaussian_anomaly_detector import GaussianAnomalyDetector
 
 
